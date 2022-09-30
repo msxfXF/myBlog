@@ -49,7 +49,7 @@ sudo docker run --detach \
 ### 开启虚拟内存，不然gitlab直接死机
 1.创建swap文件夹
 ```bash
-dd if=/dev/zero of=/swapfile bs=64M count=16
+dd if=/dev/zero of=/swapfile bs=32M count=128
 ```
 bs=单位体积 count=数量
 
