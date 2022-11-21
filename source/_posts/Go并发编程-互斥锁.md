@@ -147,7 +147,8 @@ Mutex 可能处于两种操作模式下：正常模式和饥饿模式。
 	- 持有和等待：goroutine持有一个资源，并且还在请求其它goroutine持有的资源
 	- 不可剥夺：资源只能由持有它的goroutine来释放。
 	- 环路等待：一般来说，存在一组goroutine依次等待其它goroutine的资源，形成了一个环路等待的死结。
-### 思维导图
+## 思维导图
 ![](Go并发编程-基本并发原语/2022-11-08-22-26-54.png)
-### Mutex源码分析
+## 其它资料
 [sync.mutex 源代码分析](https://colobu.com/2018/12/18/dive-into-sync-mutex/)
+[深入理解原子操作的本质](https://blog.fanscore.cn/p/2/)

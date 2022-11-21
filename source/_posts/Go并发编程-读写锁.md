@@ -1,8 +1,8 @@
 ---
 title: Go并发编程-读写锁
 date: 2022-11-08 21:58:57
-tags:
-categories:
+tags: Go
+categories: Go
 ---
 
 ## 什么是RWMutex
