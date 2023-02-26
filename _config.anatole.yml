@@ -34,10 +34,10 @@ menu:
   categories: /categories
   about: /about
 math:
-  enable: true
+  enable: false
   engine: mathjax
 
 mathjax:
-  enable: true
+  enable: false
   perpage: true
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
