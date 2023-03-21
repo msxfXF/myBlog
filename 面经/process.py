@@ -34,8 +34,8 @@ import openai
 #         print("Error: ", resp)
 #         time.sleep(20)
 #         return get_answer(question)
-openai.organization = "org-7gghRYPSh2oYp8q64CFsl8YU"
-openai.api_key = "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"
+openai.organization = "org-"
+openai.api_key = "sk-"
 
 def get_answer_chatgpt(question):
     try:
